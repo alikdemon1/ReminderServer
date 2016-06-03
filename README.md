@@ -34,6 +34,7 @@
     }
 ```
 ![save.png](/images/save.png)
+-----------------------------------------------------------------------------
 
 4.Delete reminder
 ```java
@@ -43,3 +44,5 @@
         remindService.remove(rId);
     }
 ```
+![delete.png](/images/delete.png)
+
