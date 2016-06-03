@@ -44,5 +44,5 @@
         remindService.remove(rId);
     }
 ```
-<img src="/images/delete.png" width="400" height="300"/>
+![delete.png](/images/delete.png =250x250)
 
