@@ -21,3 +21,5 @@
         return remindService.getById(rId);
     }
 ```
+![get_by_id.png](/images/get_by_id.png)
+
