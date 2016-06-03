@@ -1,5 +1,5 @@
 # ReminderServer
-### Restful web service for android app Reminder
+### Restful web service for android app [ReminderApp](https://github.com/alikdemon1/ReminderApp)
 ----------------------------------------------------------------------
 1. Get all reminders
 
@@ -50,5 +50,3 @@
 5. And the final result will be like this
 
 ![final.png](/images/final.png)
-
-
