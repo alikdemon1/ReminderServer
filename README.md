@@ -36,7 +36,7 @@
 ![save.png](/images/save.png)
 -----------------------------------------------------------------------------
 
-4.Delete reminder
+4. Delete reminder
 ```java
 @RequestMapping(value = "/reminders/{id}", method = RequestMethod.DELETE)
     @ResponseBody
@@ -45,4 +45,8 @@
     }
 ```
 ![delete.png](/images/delete.png)
+-----------------------------------------------------------------------------
+
+5. And the final result will be like this
+![final.png](/images/final.png)
 
