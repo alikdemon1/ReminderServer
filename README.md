@@ -1,6 +1,8 @@
 # ReminderServer
-Restful web service for android app Reminder
-![get_all.png](/images/get_all.png)
+### Restful web service for android app Reminder
+----------------------------------------------------------------------
+1. Get all reminders
+
 ```java
  @RequestMapping(value = "/reminders", method = RequestMethod.GET)
     @ResponseBody
@@ -8,3 +10,5 @@ Restful web service for android app Reminder
         return remindService.getAll();
     }
 ```
+![get_all.png](/images/get_all.png)
+
