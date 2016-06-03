@@ -35,3 +35,11 @@
 ```
 ![save.png](/images/save.png)
 
+4.Delete reminder
+```java
+@RequestMapping(value = "/reminders/{id}", method = RequestMethod.DELETE)
+    @ResponseBody
+    public void deleteRemind(@PathVariable("id") long rId){
+        remindService.remove(rId);
+    }
+```
