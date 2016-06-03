@@ -44,5 +44,5 @@
         remindService.remove(rId);
     }
 ```
-![delete.png](/images/delete.png)
+![delete.png](/images/delete.png | width=100)
 
