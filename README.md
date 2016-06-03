@@ -11,6 +11,7 @@
     }
 ```
 ![get_all.png](/images/get_all.png)
+----------------------------------------------------------------------------
 
 2. Get reminder by id
 
@@ -22,4 +23,15 @@
     }
 ```
 ![get_by_id.png](/images/get_by_id.png)
+-----------------------------------------------------------------------------
+
+3. Save reminder
+```java
+@RequestMapping(value = "/reminders", method = RequestMethod.POST)
+    @ResponseBody
+    public Remind saveRemind(@RequestBody Remind remind){
+        return remindService.save(remind);
+    }
+```
+![save.png](/images/save.png)
 
